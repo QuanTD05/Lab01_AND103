@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724516557074",
+    "project_id": "lab01-and103-169bd",
+    "storage_bucket": "lab01-and103-169bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724516557074:android:9171ab05f841b15765a3cb",
+        "android_client_info": {
+          "package_name": "fpoly.md19304.lab01_and103"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2sYUXTEmQ30biJ7B4ZM1KSuoUfjChfnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

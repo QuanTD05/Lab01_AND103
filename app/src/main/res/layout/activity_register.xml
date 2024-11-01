@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    tools:context=".register">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Email:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Email"
+        android:background="@drawable/custom"
+        android:importantForAccessibility="yes"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập mật khẩu:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu"
+        android:background="@drawable/custom"
+        android:inputType="textPassword"
+        android:importantForAccessibility="yes"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập lại mật khẩu:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtRepass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:background="@drawable/custom"
+        android:inputType="textPassword"
+        android:importantForAccessibility="yes"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập họ và tên:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập họ tên"
+        android:background="@drawable/custom"
+        android:importantForAccessibility="yes"/>
+
+
+    <Button
+        android:id="@+id/btnre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí"
+        android:textAllCaps="true"
+        android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:importantForAccessibility="yes"/>
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAllCaps="true"
+        android:backgroundTint="#FF5722"
+        android:text="Thoát"
+        android:layout_marginTop="10dp"
+        android:importantForAccessibility="yes"/>
+
+</LinearLayout>
